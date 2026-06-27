@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniLink - Connect & Collaborate</title>
+    <!-- Linking our global stylesheet -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- Linking our component stylesheet -->
+    <link rel="stylesheet" href="src/css/components.css">
+</head>
+<body>
+
+    <!-- Shared Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">UniLink</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="pages/dashboard.html">Dashboard</a></li>
+            <li><a href="pages/chat.html">Chat</a></li>
+            <li><a href="pages/login.html" class="btn-login">Login</a></li>
+            <li><a href="pages/register.html" class="btn-register">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero-container">
+        <section class="hero-content">
+            <h1>Welcome to UniLink</h1>
+            <p>The ultimate hub to connect, chat, and collaborate with your peers in real-time.</p>
+            <div class="hero-buttons">
+                <a href="pages/register.html" class="btn-primary">Get Started</a>
+                <a href="pages/login.html" class="btn-secondary">Sign In</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 UniLink. All rights reserved.</p>
+    </footer>
+
+    <!-- Global Logic Script -->
+    <script src="src/js/main.js"></script>
+    <script type="module" src="src/js/firebase-config.js"></script>
+</body>
+</html>
